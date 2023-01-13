@@ -20,7 +20,7 @@ npm install -D tailwindcss
 ```
 
 
-## Step 3:
+## Step 4:
 Add script to package.json for the css output location
 ```sh
 "scripts": {
@@ -28,13 +28,13 @@ Add script to package.json for the css output location
   }
 ```
 
-## Step 4:
+## Step 5:
 Init the tailwind config file
 ```sh
 npx tailwindcss init
 ```
 
-## Step 5:
+## Step 6:
 Add modules to tailwind.config.json, this is for tailwinds to style razor pages:
 ```sh
 module.exports = {
@@ -49,7 +49,7 @@ module.exports = {
 }
 ```
 
-## Step 6
+## Step 7:
 Add input css to site.css in wwwroot/css
 ```sh
 @tailwind base;
@@ -57,7 +57,7 @@ Add input css to site.css in wwwroot/css
 @tailwind utilities;
 ```
 
-## Step 7:
+## Step 8:
 Add itemgroups in in the project under the .csproj file, this is for building the css before deploying:
 ```sh
 <ItemGroup>
@@ -70,7 +70,7 @@ Add itemgroups in in the project under the .csproj file, this is for building th
 </Target>
 ```
 
-## Step 8:
+## Step 9:
 Include the path to the CSS file in the layout file
 ```sh
 <link rel="stylesheet" href="~/css/styles.css" asp-append-version="true" />
