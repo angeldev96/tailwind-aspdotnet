@@ -1,4 +1,5 @@
 # Steps to add Tailwindscss in ASP.NET 6 MVC Project:
+## Video of the tutorial: https://youtu.be/HndP-Yh8WKc
 ## Requirements: 
 - NodeJS
 - .NET 6
