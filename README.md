@@ -72,7 +72,7 @@ Add itemgroups in in the project under the .csproj file, this is for building th
 ```
 
 ## Step 9:
-Include the path to the CSS file in the layout file
+Include the path to the CSS file in the _Layout.cshtml file (Or the other views you need to style with tailwinds)
 ```sh
 <link rel="stylesheet" href="~/css/styles.css" asp-append-version="true" />
 ```
