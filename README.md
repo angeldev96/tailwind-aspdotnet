@@ -1,6 +1,6 @@
 ![dotnet + tailwind](https://github.com/angeldev96/tailwind-aspdotnet/blob/master/thumbnail.png)
 
-# Steps to add Tailwindscss in ASP.NET 6 MVC Project:
+# Steps to add Tailwind in ASP.NET 6 MVC Project:
 ## Video of the tutorial: https://youtu.be/HndP-Yh8WKc
 ## Requirements: 
 - NodeJS
