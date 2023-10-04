@@ -17,7 +17,7 @@ npm init -y
 ```
 
 ## Step 3:
-Add Tailwindscss
+Add Tailwind
 ```sh
 npm install -D tailwindcss
 ```
@@ -38,7 +38,7 @@ npx tailwindcss init
 ```
 
 ## Step 6:
-Add modules to tailwind.config.json, this is for tailwinds to style razor pages:
+Add modules to tailwind.config.json, this is for tailwind to style razor pages:
 ```sh
 module.exports = {
     content: [
