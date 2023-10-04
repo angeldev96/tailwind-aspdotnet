@@ -1,7 +1,7 @@
 ![dotnet + tailwind](https://github.com/angeldev96/tailwind-aspdotnet/blob/master/thumbnail.png)
 
 # Steps to add Tailwind in ASP.NET 6 MVC Project:
-## Video of the tutorial: https://youtu.be/HndP-Yh8WKc
+## Video tutorial: https://youtu.be/HndP-Yh8WKc
 ## Requirements: 
 - NodeJS
 - .NET 6
@@ -61,7 +61,7 @@ Add input css to site.css in wwwroot/css
 ```
 
 ## Step 8:
-Add itemgroups in in the project under the .csproj file, this is for building the css before deploying:
+Add itemgroups in the project under the .csproj file, this is for building the css before deploying:
 ```sh
 <ItemGroup>
   <UpToDateCheckBuilt Include="wwwroot/css/site.css" Set="Css" />
